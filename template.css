@@ -126,5 +126,18 @@ footer .container .contact a{
     color: #FFFFFF;
 }
 
+footer .container .medsos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: center; */
+    gap: 40px;
+}
+
+footer .container .logo{
+    width: 40px;
+    height: 40px;
+}
+
 
 
