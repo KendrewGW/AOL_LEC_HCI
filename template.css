@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Overlock&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overlock&family=Poppins&display=swap');
 
 :root{
     --yellow :#DDCF4F;
@@ -77,4 +78,53 @@ nav .container .register{
     align-items: center;
     gap: 69px;
 }
+
+footer .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 51px 331px 51px 105px;
+    background-color: var(--dark-blue);
+}
+
+footer .container .binus-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+}
+
+footer .container .binus-contact .binus{
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+
+footer .container .contact{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    /* gap: 6px; */
+}
+
+footer .container p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+footer .container .contact a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    /* text-decoration: none; */
+    color: #FFFFFF;
+}
+
+
 
