@@ -49,10 +49,9 @@ nav .container .logo-menu .nav-menu{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 60px;
 }
 
-nav .container  a{
+nav .container a{
     font-family: 'Overlock';
     font-style: normal;
     font-weight: 600;
@@ -60,6 +59,10 @@ nav .container  a{
     line-height: 20px;
     color: var(--black);
     text-decoration: none;
+}
+
+nav .container .nav-menu a{
+    margin-right: 60px;
 }
 
 nav .container .active{
