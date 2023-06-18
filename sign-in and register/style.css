@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Overlock&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overlock&family=Poppins&display=swap');
+
+.Information1{
+    width: 100px;
+    height: 48px;
+    left: 206px;
+    top: 240px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+}

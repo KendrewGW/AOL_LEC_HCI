@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Overlock&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overlock&family=Poppins&display=swap');
+
+:root{
+    --yellow :#DDCF4F;
+    --white: #FFFFFF;
+    --black : #000000;
+    --dark-blue: #0B1361;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    padding: 6.25rem;
+}
+
+nav .container{
+    padding: 23px 74px 23px 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--yellow);
+}
+
+nav .container .logo-menu{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+nav .container h2{
+    font-family: 'Overlock';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+    margin-right: 83px;
+}
+
+nav .container .logo-menu .nav-menu{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav .container a{
+    font-family: 'Overlock';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--black);
+    text-decoration: none;
+}
+
+nav .container .nav-menu a{
+    margin-right: 60px;
+}
+
+nav .container .active{
+    padding: 8px 20px 8px 20px;
+    background-color: var(--dark-blue);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    color: var(--white);
+    font-weight: 400;
+}
+
+nav .container .register{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 69px;
+}
+
+.banner .container{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(/asset/traditional-food-around-the-world-Travlinmad.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 48vw;
+    width: 100%;
+    z-index: -1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner .container .content h2{
+    font-family: 'Overlock';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 117px;
+    color: #FFFFFF;
+}
+
+.banner .container .content p{
+    z-index: 2;
+    filter: none;
+    color: white;
+    font-family: 'Overlock';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.banner .container .banner-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 583px;
+    height: 422px;
+    border-radius: 5px;
+}
+
+.banner .container .banner-img img{
+    width: 583px;
+    height: 422px;
+    border-radius: 5px;
+}
+
+.banner .container .banner-img a{
+    margin-top: 24px;
+    padding: 10px 60px 10px 60px;
+    text-decoration: none;
+    color: white;
+    background-color: var(--dark-blue);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: 'Overlock';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 39px;
+}
+
+.banner .container .banner-img a:hover{
+    color: var(--yellow);
+    transition: 0.3s;
+}
+
+#canteen .canteens p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 48px;
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+#canteen .container .row{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+#canteen .container .canteen-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-right:75px;
+}
+
+#canteen .container .canteen-card a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 48px;
+    color: #585858;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+}
+
+    #canteen .container .row .canteen-card img{
+        width: 200px;
+        height: 200px;
+        left: 96px;
+        top: 226px;
+        border-radius: 100px;
+    }
+
+
+
+/* ===================================================================================FOOTER========================================================== */
+
+footer .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 51px 331px 51px 105px;
+    background-color: var(--dark-blue);
+}
+
+footer .container .binus-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+}
+
+footer .container .binus-contact .binus{
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+
+footer .container .contact{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    /* gap: 6px; */
+}
+
+footer .container p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+footer .container .contact a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    /* text-decoration: none; */
+    color: #FFFFFF;
+}
+
+footer .container .medsos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: center; */
+    gap: 40px;
+}
+
+footer .container .logo{
+    width: 40px;
+    height: 40px;
+}
+
+
+
