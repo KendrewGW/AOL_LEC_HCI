@@ -1,16 +1,120 @@
 @import url('https://fonts.googleapis.com/css2?family=Overlock&family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Overlock&family=Poppins&display=swap');
 
-.Information1{
-    width: 100px;
-    height: 48px;
-    left: 206px;
-    top: 240px;
+:root{
+    --yellow :#DDCF4F;
+    --white: #FFFFFF;
+    --black : #000000;
+    --dark-blue: #0B1361;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    padding: 6.25rem;
+}
+
+#sign-in .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#sign-in{
+    padding-left: 25vw;
+    padding-top: 10vw;
+}
+
+#sign-in .container{
+    /* background-color: rgba(0, 0, 0, 0.249); */
+    /* box-sizing: border-box; */
+    width: 50vw;
+    align-items: center;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+#sign-in .container form label{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 32px;
     line-height: 48px;
+    color: #000000;
+}
+
+#sign-in .container form input{
+    margin: auto;
     display: flex;
-    align-items: center;
+    background-color: black;
+    color: white;
+    border: none;
+    width: 16vw;
+    height: 3vw;
+    padding-left: 1vw;
+    font-size: 15px;
+    border-radius: 8px;
+    opacity: 80%;
+    resize: vertical;
+}
+
+.name{
+    padding-right: 12.5vw;
+}
+
+.nim{
+    padding-top: .5vw;
+    padding-right: 15.2vw;
+}
+
+.password{
+    padding-top: .3vw;
+    padding-right: 1vw;
+}
+
+.container p{
+    padding-top: .5vw;
+    text-align: center;
+}
+
+.container button{
+    display: flex;
+    margin: 1vw auto -4vw auto;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 1vw 6vw 1vw 6vw;
+    font-family: 'Poppins';
+    font-size: 22px;
+    background-color: var(--dark-blue);
+    color: #FFFFFF;
+    border-radius: 12.5px;
+}
+
+.box{
+    position: absolute;
+    margin-top: 10vw;
+    margin-left: 25vw;
+    background-color: rgba(0, 0, 0, 0.167);
+    display: block;
+    width: 50vw;
+    height: 27.5vw;
+    border-radius: 15px;
+    border: 1px solid black;
+    filter: blur(7px);
 }

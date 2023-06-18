@@ -14,6 +14,10 @@
     padding: 0px;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .container{
     padding: 6.25rem;
 }
@@ -152,20 +156,21 @@ nav .container .register{
     transition: 0.3s;
 }
 
+#canteen .container{
+    padding-bottom: 0px;
+}
+
 #canteen .canteens p{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 32px;
     line-height: 48px;
-    color: #000000;
-    text-decoration: none;
     margin-bottom: 20px;
 }
 
 #canteen .container .row{
     display: flex;
-    flex-direction: row;
     margin-bottom: 50px;
     align-items: center;
 }
@@ -175,10 +180,7 @@ nav .container .register{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-right:75px;
-}
-
-#canteen .container .canteen-card a{
+    margin-right: 70px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -189,15 +191,79 @@ nav .container .register{
     text-decoration: none;
 }
 
-    #canteen .container .row .canteen-card img{
-        width: 200px;
-        height: 200px;
-        left: 96px;
-        top: 226px;
-        border-radius: 100px;
-    }
+#canteen .container .canteen-cards a{
+    transition: 0.4s;
+    text-decoration: none;
+    color: var(--black);
+}
 
+#canteen .container .canteen-cards{
+    transition: 0.4s;
+}
 
+#canteen .container .canteen-cards:hover{
+    transform: translate(0px, -10px);
+}
+
+#canteen .container .row .canteen-card img{
+    width: 200px;
+    height: 200px;
+    left: 96px;
+    top: 226px;
+    border-radius: 100px;
+}
+
+#recommended .container{
+    padding-top: 0px;
+}
+
+#recommended .container .recommend p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+#recommended .container .recommended{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#recommended .container .recommended .recommended-card{
+    display: flex;
+    flex-direction: column;
+    padding: 6px 37px 6px 37px;
+    background: #D9D9D9;
+    box-shadow: 4px 8px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;    
+}
+
+#recommended .container .recommended .recommended-card p{
+    font-size: 23px;
+    margin: 0px;
+}
+
+#recommended a{
+    text-decoration: none;
+    transition: .4s;
+}
+
+#recommended a:hover{
+    transform: translate(0px, -10px);
+}
+
+#recommended img{
+    width: 197px;
+    height: 178px;
+}
 
 /* ===================================================================================FOOTER========================================================== */
 
