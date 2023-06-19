@@ -18,6 +18,7 @@
     justify-content: space-around;
     align-items: center;
     margin-right: 40px;
+    transition: .4s;
 }
 
 #canteen .container .canteen-card a{
@@ -31,6 +32,10 @@
     text-decoration: none;
 }
 
+#canteen .container .canteen-card:hover{
+    transform: translate(0px, -10px);
+}
+
 #canteen .container .row .canteen-card img{
     width: 200px;
     height: 200px;
@@ -38,6 +43,3 @@
     top: 226px;
     border-radius: 100px;
 }
-
-
-

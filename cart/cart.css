@@ -1,0 +1,30 @@
+.Cart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* border: solid 6px; */
+}
+
+.Cart-Container{
+    /* border: solid 10px; */
+    width: 870px;
+    height: 433px;
+    border-radius: 46px;
+    background-color: #00FFC2;
+    padding-left: 40px; 
+    display: flex;
+    margin-top: 20px;
+}
+
+.img1{
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-top: 15px;
+    width: 256px;
+    height: 160px;
+}
+
+.Cart-Container p{
+    margin-top: 15px;
+}
