@@ -45,6 +45,7 @@ html{
     /* background-color: rgba(0, 0, 0, 0.249); */
     /* box-sizing: border-box; */
     width: 50vw;
+    height: 27vw;
     align-items: center;
     border-radius: 15px;
     border: 2px solid black;

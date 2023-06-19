@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/./template.css">
     <link rel="stylesheet" href="./cart.css">
+    <script src="cart.js"></script>
     <title>B-Lunch</title>
 </head>
 <body>
@@ -28,16 +29,54 @@
     <!-- NavBar End -->
 
     <!-- Content -->
-    <div class="Cart">
-        <div class="Cart-Container">
-            <div class="img1">
-            <img src="/./asset/youtube.jpg"/>
+    <section id="cart">
+        <div class="container">
+            <div class="cart">
+                <div class="row">
+                    <img src="/./asset/Bakmie Effata/Bakmi keriting ayam polos.jpg" class="logo"/>
+                    <div class="info">
+                        <h1>Food</h1>
+                        <div class="harga-avaible">
+                            <div class="row">
+                                <img src="/asset/rupiah.jpg" alt="">
+                                <p>20.000</p>
+                            </div>
+                            <div class="row">
+                                <img src="/asset/avaible.jpg" alt="">
+                                <p>Available</p>
+                            </div>  
+                        </div>                                              
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="price">
+                        <p>Total Payment : </p>
+                        <p>Waktu Pengambilan : </p>
+                    </div>
+                    <div class="price2">
+                        <div class="row">
+                            <img src="/asset/rupiah.jpg" alt="">
+                            <p>20.000</p>
+                        </div>
+                        <div class="row">
+                            <img src="/asset/clock.png" alt="">
+                            <p>10:00 AM</p>
+                        </div>
+                    </div>
+                </div>                          
             </div>
-            <p>Food</p>
-        </div>
-            <div>
+
+            <div class="buttons">
+                <button class="cancel">Cancel</button>
+                <button class="pay">Pay</button>
             </div>
-    </div>
+
+        </div>        
+    </section>
+        
+    
+    <!-- <button type="">Pay</button> -->
+    
     <!-- Content End -->
 
     <footer>
