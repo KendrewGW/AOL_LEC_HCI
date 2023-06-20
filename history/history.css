@@ -1,0 +1,109 @@
+.History-Container{
+    background-color: #00FFC2;
+    border: solid #00FFC2;
+    margin: 30px 104px;
+    width: 85vw;
+    height: 21.1vw;
+    border-radius: 46px;
+    box-shadow: 4px 8px 4px rgba(0, 0, 0, 0.25);
+}
+
+.row{
+    /* background-color: #00FFC2; */
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin: 40px 0 40px 40px;
+}
+
+.row img{
+    border-radius: 20px;
+    margin-right: 2vw;
+}
+
+.foto{
+    width: 20vw;
+    height: 16vw;
+}
+
+.line1{
+    background-color: black;
+    width: 25vw;
+    height: .1vw;
+    margin-bottom: 2vw;
+}
+
+.Himg{
+    display: flex;
+    flex-direction: column;
+}
+
+.Himg p{
+    font-family: 'Poppins';
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.Himg img{
+    width: 10%;
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+}
+
+.price p{
+    margin-top: 10px;
+}
+
+.available{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.available img{
+    border-radius: 0;
+}
+
+.available p{
+    margin-top: 10px;
+}
+
+.line2{
+    background-color: black;
+    width: .1vw;
+    height: 21vw;
+    margin-top: -42px;
+    margin-left: -21.2vw;
+    margin-right: 3vw;
+}
+
+.Orders{
+    display: flex;
+    flex-direction: column;
+}
+
+.Orders p{
+    font-size: 40px;
+}
+
+.Orders div{
+    margin-top: 5vw;
+    font-size: 25px;
+    margin-left: -1.5vw;
+}
+
+.circle{
+    background-color: yellow;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 80px;
+    margin: auto;
+    border: 1px solid var(--black);
+}
+
+.circle img{
+    width: 100%;
+}

@@ -59,7 +59,7 @@ form{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 32px;
+    font-size: 20px;
     line-height: 48px;
     color: #000000;
 }
@@ -67,17 +67,18 @@ form{
 #sign-in .container form input{
     margin: auto;
     display: flex;
-    background-color: #ECECEC;
-    color: white;
+    /* background-color: #ECECEC; */
+    color: black;
     border: none;
     width: 32vw;
     height: 3vw;
     padding-left: 1vw;
     font-size: 15px;
-    border-radius: 8px;
+    /* border-radius: 8px; */
     opacity: 80%;
     resize: vertical;
-    border: 1px black solid;
+    border: none;
+    border-bottom: 1px solid black;
 }
 
 .name{
@@ -98,12 +99,12 @@ button{
     display: grid;
     margin-top: 2vw;
     cursor: pointer;
-    padding: 1vw 6vw 1vw 6vw;
+    padding: 1vw 4vw 1vw 4vw;
     font-family: 'Poppins';
     font-size: 22px;
     background-color: var(--dark-blue);
     color: #FFFFFF;
-    border-radius: 12.5px;
+    border-radius: 10px;
     align-items: center;
     justify-self: center;
 }

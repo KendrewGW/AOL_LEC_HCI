@@ -123,17 +123,24 @@ footer .container p{
     font-weight: 500;
     font-size: 16px;
     line-height: 30px;
-    color: #FFFFFF;
+    color: var(--white);
 }
 
-footer .container .contact a{
+footer .container .sosmed .more-info p{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 30px;
-    text-decoration: none;
-    color: #FFFFFF;
+    color: var(--white);
+    margin-bottom: 10px;
+}
+
+footer .container .sosmed{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 footer .container .medsos{

@@ -310,9 +310,9 @@ nav .container .register{
     margin-bottom: 20px;
 }
 
-#recommended .container .recommended{
+.recommended{
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     text-align: center;
     flex-direction: row;
@@ -323,8 +323,9 @@ nav .container .register{
     height: 21vw;
 }
 
-#recommended .container .recommended .recommended-card{
+.recommended-card{
     display: flex;
+    align-items: center;
     flex-direction: column;
     padding: 6px 37px 6px 37px;
     background: var(--white);
@@ -333,12 +334,13 @@ nav .container .register{
     border-radius: 15px;    
 }
 
-#recommended .container .recommended .recommended-card p{
+.recommended-card p{
     font-size: 23px;
     margin: 0px;
+    text-decoration: none;
 }
 
-#recommended a{
+.recommended-card a{
     text-decoration: none;
     transition: .4s;
 }
@@ -352,6 +354,8 @@ nav .container .register{
     height: 178px;
     border: 1px solid #000000;
     border-radius: 5px;
+    /* display: flex; */
+    /* flex-direction: row  ; */
 }
 
 /* ===================================================================================FOOTER========================================================== */

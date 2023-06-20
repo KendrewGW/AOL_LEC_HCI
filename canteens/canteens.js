@@ -24,7 +24,7 @@ function ShowMenu(Hakuya)
 }
 
 
-function ShowMenu(XiaoK)
+function ShowMenu(XiaoKee)
 {
     var Menu = document.getElementById(XiaoKee)
     alert("Menu Of Hakuya");

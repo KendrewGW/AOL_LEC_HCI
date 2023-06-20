@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Overlock&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overlock&family=Poppins&display=swap');
+
+:root{
+    --yellow :#DDCF4F;
+    --white: #FFFFFF;
+    --black : #000000;
+    --dark-blue: #0B1361;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    padding: 6.25rem;
+}
+
+.back{   
+    align-self: center;
+    margin-bottom: 20px;   
+}
+
+.btn-back{
+    font-size: 32px;
+    font-family: 'Poppins';
+    padding: 10px 40px;
+    text-decoration: none;
+    color: var(--black);
+    transition: 0.4s;
+}
+
+.btn-back:hover{
+    color: var(--dark-blue);
+    text-decoration: underline;
+}
+
+#food .container{
+    padding-top: 0px;
+}
+
+#food .container .recommend{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#food .container .recommend p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 7vh;
+    line-height: 48px;
+    color: #000000;
+    text-decoration: none;
+    margin: 3vw 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: underline;
+}
+
+#food .container .recommended{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    gap: 20px;
+    overflow-x: hidden;
+    margin: auto;
+    /* width: 77vw; */
+    height: 21vw;
+}
+
+#food .container .recommended .recommended-card{
+    display: flex;
+    flex-direction: column;
+    padding: 6px 37px 6px 37px;
+    background: var(--white);
+    border: 1px solid #000000;
+    box-shadow: 4px 8px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;    
+}
+
+#food .container .recommended .recommended-card p{
+    font-size: 23px;
+    margin: 0px;
+}
+
+#food .recommended a{
+    text-decoration: none;
+    transition: .4s;
+}
+
+#food .recommended a:hover{
+    transform: translate(0px, -10px);
+}
+
+#food img{
+    width: 197px;
+    height: 178px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}

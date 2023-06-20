@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/./template.css">
-    
+    <link rel="stylesheet" href="./food.css">
+    <script src="food.js"></script>
     <title>Menu</title>
 </head>
 <body>
@@ -20,16 +21,105 @@
                 </div>
             </div>
             <div class="register">
-                <a href="" class="">Sign In</a>
-                <a href="" class="">Register</a>
+                <a href="/./sign-in and register/signin.html" class="">Sign In</a>
             </div>
         </div>
     </nav>
-
+    
+    
     <!-- <-Content-> -->
-    <div>
-        <p>auheuaweuawe</p>
-    </div>
+    <section id="food">
+        <div class="container">
+            <div class="recommend">
+                <a href=""><p>Hakuya</p></a>
+                <div class="recommended">
+                    <a href="/./cart/cart.html">
+                        <div class="recommended-card">
+                            <div class="name">
+                                <p>Beef rice bowl</p>
+                            </div>
+                            <div class="image">
+                                <img src="/./asset/Hakuya/Hakuya Beef Gyudon.jpg" alt="">
+                            </div>
+                            <div class="price">
+                                <p>20.000</p>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <a href="/./cart/cart.html">
+                        <div class="recommended-card">
+                            <div class="name">
+                                <p>Beef rice bowl</p>
+                            </div>
+                            <div class="image">
+                                <img src="/./asset/Hakuya/Hakuya Katsu Rice.jpg" alt="">
+                            </div>
+                            <div class="price">
+                                <p>20.000</p>
+                            </div>
+                        </div>
+                    </a>
+                
+                    <a href="/./cart/cart.html">
+                        <div class="recommended-card">
+                            <div class="name">
+                                <p>Beef rice bowl</p>
+                            </div>
+                            <div class="image">
+                                <img src="/./asset/Hakuya/Hakuya Chicken Bites Gyudon.jpg" alt="">
+                            </div>
+                            <div class="price">
+                                <p>20.000</p>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <a href="/./cart/cart.html">
+                        <div class="recommended-card">
+                            <div class="name">
+                                <p>Beef rice bowl</p>
+                            </div>
+                            <div class="image">
+                                <img src="/./asset/Hakuya/Hakuya Chicken Bites Gyudon.jpg" alt="">
+                            </div>
+                            <div class="price">
+                                <p>20.000</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- <ul id="cart-items"></ul> -->
+            <!-- <a href="/./cart/cart.html"><button onclick="addItem()" id="item-input">Add to cart</button></a> -->
+            <script>
+                var cartItemsElement = document.getElementById("cart-items");
+                var addButton = document.querySelector("button");
+            
+                addButton.addEventListener("click", addItem());
+            
+                function addItem() {
+                    var itemName = document.querySelector(".name p").textContent;
+                    var itemPrice = document.querySelector(".price p").textContent;
+            
+                    // var cartItem = document.createElement("li");
+                    cartItem.textContent = itemName + " - $" + itemPrice;
+            
+                    cartItemsElement.appendChild(cartItem);
+                }
+            </script>
+
+        </div>
+
+        <div class="back">
+           <a href="canteens.html" class="btn-back">< Back</a>  
+        </div>
+       
+    </section>
+
+
+        
+
 
     <footer>
         <div class="container">
@@ -37,7 +127,7 @@
                 <p class="binus">BINUS UNIVERSITY</p>
                 <div class="contact">
                     <p>Jl. Raya Kebon Jeruk  No 27 , Jakarta Barat</p>
-                    <a href="">0804 169 6969</a>
+                    <p>0804 169 6969</p>
                     <p>halobinus@facility.ac.id</p>
                 </div>             
             </div>
